@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    hostname: tackle
+    # ports:
+    #  - 8080:8080
+    volumes:
+      - ~/.gitconfig:/home/dev/.gitconfig
+      - ~/.ssh/:/home/dev/.ssh/
+      - ..:/app
+    command: sleep infinity
