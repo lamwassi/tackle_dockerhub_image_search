@@ -1,3 +1,5 @@
-# tackle_dockerhub_image_search
+# tackle_image_search engine
 
-Tackle Container Advisor provides a tool to access client application porforlio and recommends appropriate  dispostion.
+Allows user to search  a new entity container images from  DockerHub , RedHat Openshift , and OperatorHub registry using the provided API's from each platform.
+
+
